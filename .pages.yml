@@ -1,6 +1,6 @@
 media:
-  input: d27179db977796e7e2e67f6dabc9b081
-  output: /d27179db977796e7e2e67f6dabc9b081
+  input: cdn.myportfolio.com/d27179db977796e7e2e67f6dabc9b081
+  output: /cdn.myportfolio.com/d27179db977796e7e2e67f6dabc9b081
 
 content:
   - name: pages
@@ -14,13 +14,3 @@ content:
         type: code
         options:
           language: html
-
-collections:
-- name: typekit
-    label: Typekit files
-    type: collection
-    path: use.typekit.net
-    fields:
-      - name: body
-        label: File
-        type: code
