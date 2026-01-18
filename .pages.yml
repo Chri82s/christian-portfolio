@@ -3,14 +3,23 @@ media:
   output: /cdn.myportfolio.com/d27179db977796e7e2e67f6dabc9b081
 
 content:
-  - name: pages
-    label: Pages (HTML)
-    type: collection
-    path: .
-    filter: "*.html"
+  - label: Home
+    name: index
+    type: file
+    path: index.html
     fields:
-      - name: body
-        label: HTML
-        type: code
-        options:
-          language: html
+      - { name: body, label: HTML, type: code, options: { format: html } }
+
+  - label: Work
+    name: work
+    type: file
+    path: work.html
+    fields:
+      - { name: body, label: HTML, type: code, options: { format: html } }
+
+  - label: Contact
+    name: contact
+    type: file
+    path: contact.html
+    fields:
+      - { name: body, label: HTML, type: code, options: { format: html } }
