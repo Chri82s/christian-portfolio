@@ -1,6 +1,6 @@
 media:
-  input: media
-  output: /media
+  input: d27179db977796e7e2e67f6dabc9b081
+  output: /d27179db977796e7e2e67f6dabc9b081
 
 content:
   - name: projects
