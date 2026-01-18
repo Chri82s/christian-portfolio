@@ -14,3 +14,13 @@ content:
         type: code
         options:
           language: html
+
+collections:
+- name: typekit
+    label: Typekit files
+    type: collection
+    path: use.typekit.net
+    fields:
+      - name: body
+        label: File
+        type: code
