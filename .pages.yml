@@ -1,0 +1,20 @@
+media:
+  input: media
+  output: /media
+
+content:
+  - name: projects
+    label: Projects
+    type: collection
+    path: projects
+    filename: "{slug}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: year
+        label: Year
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
