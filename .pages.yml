@@ -3,18 +3,14 @@ media:
   output: /d27179db977796e7e2e67f6dabc9b081
 
 content:
-  - name: projects
-    label: Projects
+  - name: pages
+    label: Pages (HTML)
     type: collection
-    path: projects
-    filename: "{slug}.md"
+    path: .
+    filter: "*.html"
     fields:
-      - name: title
-        label: Title
-        type: string
-      - name: year
-        label: Year
-        type: string
       - name: body
-        label: Body
-        type: rich-text
+        label: HTML
+        type: code
+        options:
+          language: html
